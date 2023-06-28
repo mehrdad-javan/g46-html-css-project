@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+  }
+
+  .container {
+    background-color: lightgray;
+    padding: 12px; 
+    width: 50%;
+    margin: 0 auto;
+
+    border-radius: 1em; /*16 px*/
+  }
+
+  .register-btn {
+    background-color: rgb(81, 121, 243);
+    color: white;
+    padding: 1em;
+
+    cursor: pointer;
+    border-radius: 1em;
+    border: none;
+
+    width: 100%;
+
+  }
+
+  .register-btn:hover {
+    background-color: rgb(93, 200, 93);
+  }
+
+  input, select, textarea {
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid rgba(126, 113, 184, 0.727);
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+  }
+
+
+  footer {
+    background-color: rgb(31, 29, 29);
+    padding: 2em;
+    color: white;
+
+    text-align: center;
+
+    font-size: 1.5em;
+
+  }
+
+
+  
+  table {
+    width: 100%;
+    background-color: aliceblue;
+
+    border-collapse: collapse;
+  }
+
+  th {
+    border: 1px solid rgb(189, 188, 188);
+    padding: 0.5em;
+    text-align: center;
+    background-color: gray;
+    color: white;
+  }
+
+  td {
+    border: 1px solid rgb(189, 188, 188);
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(174, 176, 179);
+  }
+
+  tr:hover {
+    background-color: rgb(228, 255, 228);
+  }
+
+
+  nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 1.5em 0;
+    background-color: rgb(46, 46, 46);
+    border-bottom: 5px solid red;
+    padding: 1em;
+  }
+
+  a {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: rgb(240, 248, 255);
+    color: black;
+
+  }
+
+
